@@ -5,9 +5,7 @@ Honors Engineering/CS Portfolio – 2025-2026
 
 We were given a pen kit, We were tasked with using a lathe to turn a chosen piece of wood so that we could assemble the pen utilizing that wood.
 
-(kit and wood chosen?)
-
-We used a bandsaw to cut the piece of wood that we chose so that they would be perfect size for our pen, we made sure that the length of the wood was the same length as the brass piece that is the base for the pen.
+We used a bandsaw to cut the piece of wood that we chose so that they would be perfect size for our pen, we made sure that the length of the wood was the same length as the brass piece that is the base for the pen. Since I wanted a two colored piece, I decided to cut two different wood pieces half the size of the brass piece and glue them together.
 
 (Cut piece of wood)
 
@@ -15,7 +13,7 @@ We then utilized the Jet Mini Lathe to drill a hole into the wood. This machine 
 
 (Photo of holes in wood)
 
-After this we glued our sanded pieces into the wood and applied a glue accelerant.
+After this we sanded our pieces to increase surface area and the glued them into the hole using super glue.
 
 (Brass piece going into wood)
 
