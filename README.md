@@ -7,15 +7,15 @@ We were given a pen kit, We were tasked with using a lathe to turn a chosen piec
 
 We used a bandsaw to cut the piece of wood that we chose so that they would be perfect size for our pen, we made sure that the length of the wood was the same length as the brass piece that is the base for the pen. Since I wanted a two colored piece, I decided to cut two different wood pieces half the size of the brass piece and glue them together.
 
-(Cut piece of wood)
+![](/images/pen_turning/IMG_0032.jpg)
 
 We then utilized the Jet Mini Lathe to drill a hole into the wood. This machine spun the wood incredibly fast while you manually insert a drill into the wood to drill a hole. the speed is the how fast the wood turns and the feed is how much of the drill we put into the wood.
 
-(Photo of holes in wood)
+![](/images/pen_turning/IMG_0035.jpg)
 
 After this we sanded our pieces to increase surface area and the glued them into the hole using super glue.
 
-(Brass piece going into wood)
+![](/images/pen_turning/IMG_0037.jpg)
 
 After gluing our pieces into the wood, we put the wood pieces on the wood turner. The woodturner allowed us to shape the wood down to a size that would be manageable on our pen. When putting the wood pieces on, we put bearings on each end of the wood and a metal piece to keep the wood in place. We then used a square shaped pen turning tool to get the majority of the wood down and a circle shaped pen turning tool to create better details in the wood like bevels. Once we had shaped the wood to our liking, we then sanded the wood by starting at a low grit and increasing the grit over time.
 
