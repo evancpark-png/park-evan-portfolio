@@ -58,5 +58,5 @@ Once this was done, I plugged it in and check to see if it would work
 ![](/images/owl_light/IMG_0051.png)
 
 <video width="320" height="240" controls>
-  <source src="/images/owl_light/IMG_0052.mp4" type="video/mp4">
+  <source src="../../images/owl_light/IMG_0052.mp4" type="video/mp4">
 </video>
