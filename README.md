@@ -38,3 +38,21 @@ Now all we have to do is assemble the pen, we did this by using a machine which 
 This is my assembled pen.
 
 ![](/images/pen_turning/IMG_0069.jpg)
+
+## Soldering
+
+We were given a solderig kit and tasked to solder the pieces onto the given pcb board.
+
+I decided to start with the chip, making sure that the dot on the pcb lined up with the dot on the chip. Since I was using thicker solder than normal this part was tricky but I was eventually able to get it done. Then I decided to solder the resistors and capacitors. Unfortunately, I had used the wrong resistors in the wrong spots so I had to get a solder sucker and take the resistors out and replace them. After they were soldered, I cut the ends using wire cutters. After this I soldered the usb attachment.
+
+![](/images/owl_light/IMG_0048.png)
+
+Then I soldered on each led light on the opposit side of everything else then cut the ends.
+
+![](/images/owl_light/IMG_0050.png)
+
+![](/images/owl_light/IMG_0054.png)
+
+Once this was done, I plugged it in and check to see if it would work
+
+![](/images/owl_light/IMG_0052.mp4)
