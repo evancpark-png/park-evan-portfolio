@@ -19,7 +19,7 @@ After this we sanded our pieces to increase surface area and the glued them into
 
 After gluing our pieces into the wood, we put the wood pieces on the wood turner. The woodturner allowed us to shape the wood down to a size that would be manageable on our pen. When putting the wood pieces on, we put bearings on each end of the wood and a metal piece to keep the wood in place. We then used a square shaped pen turning tool to get the majority of the wood down and a circle shaped pen turning tool to create better details in the wood like bevels. Once we had shaped the wood to our liking, we then sanded the wood by starting at a low grit and increasing the grit over time.
 
-(Photo of turning wood)
+![](/images/pen_turning/IMG_0432-resized.png)
 
 Unfortunately, the wood that I chose was weaker than I thought and it broke while I was trying to turn it. This meant I had to get a new brass piece and a stronger piece of wood and repeat the process again.
 
@@ -27,12 +27,14 @@ Once this was done though, the turning went smoothly.
 
 After we made our wood smooth, we applied a thin layer of polish to it while using the turning of the wood to apply the polish. This made the wood look very shiny and finished
 
-(photo of wood after polish)
+![](/images/pen_turning/IMG_0066.jpg)
+
+![](/images/pen_turning/IMG_0068.jpg)
 
 Now all we have to do is assemble the pen, we did this by using a machine which pressed the pieces into each other tightly which allowed them to fit into one another.
 
-(Photo of pressing?)
+![](/images/pen_turning/IMG_0436-resized.png)
 
 This is my assembled pen.
 
-(Photo of pen)
+![](/images/pen_turning/IMG_0069.jpg)
