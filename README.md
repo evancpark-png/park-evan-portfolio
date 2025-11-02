@@ -68,14 +68,13 @@ Once this was done, I plugged it in and check to see if it would work
 1. Open new 3D project
 2. Set material to PCB: Edit→Material→PCB
 3. Set dimensions
-    - a. X = 127mm
-    - b. Y  = 101mm
-    - c. Z = 1.7mm
+  - a. X = 127mm
+  - b. Y  = 101mm
+  - c. Z = 1.7mm
 4. Download files from Fab drive: (blue folder named Dubick)
-  a. Resistance1-F_Cu.gbr
-  <br />
-  b. Resistance1-PTH.drl
-  <br />
+  - a. Resistance1-F_Cu.gbr
+  - b. Resistance1-PTH.drl
+
   c. Resistance1-Edge_Cuts.gbr
 5. Import each of these files in MakeraCAM:
   a. File→Import PCB→Downloads→Resistance1-Edge_Cuts.gbr→Open
