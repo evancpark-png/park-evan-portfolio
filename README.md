@@ -68,51 +68,89 @@ Once this was done, I plugged it in and check to see if it would work
 1. Open new 3D project
 2. Set material to PCB: Edit→Material→PCB
 3. Set dimensions
+  <br />
   a. X = 127mm
+  <br />
   b. Y  = 101mm
+  <br />
   c. Z = 1.7mm
 4. Download files from Fab drive: (blue folder named Dubick)
   a. Resistance1-F_Cu.gbr
+  <br />
   b. Resistance1-PTH.drl
+  <br />
   c. Resistance1-Edge_Cuts.gbr
 5. Import each of these files in MakeraCAM:
   a. File→Import PCB→Downloads→Resistance1-Edge_Cuts.gbr→Open
+  <br />
   b. File→Import PCB→Downloads→Resistance1-PTH.drl→Open
+  <br />
   c. File→Import PCB→Downloads→Resistance1-F_Cu.gbr→Open
 6. Anchor lower left corner:
+  <br />
   a. Select whole design (highlight over everything)
+  <br />
   b. Click “m” key
+  <br />
   c. Select lower left corner in “Anchor” diagram at the top of new pop up (in top right corner of screen)
+  <br />
   d. Under “Location” in pop up, set X to 6 and Y to 6 (offsets design from very edge of material)
+  <br />
   e. Design should have moved to align with axes given
 7. Path:
+<br />
   a. Under “2D Layers” menu, hide (eye with red cross through):
+  <br />
     i. Resistance1-F_Cu.gbr_pad
+    <br />
     ii. Resistance1-PTH.drl_0.900 mm
+    <br />
     iii. Resistance1-PTH.drl_1.400 mm
+  <br />
   b. Select 2D Path (in tool bar)→2D Pocket
+  <br />
   c. Select whole (visible) design
+  <br />
   d. Set “End Depth” to .05mm
+  <br />
   e. Add tool x2
+  <br />
     i. 8mm Corn
+    <br />
     ii. .2mm*30Engraving(Metal)
+  <br />
   f. Calculate
 8. Drilling holes:
+<br />
   a. 2D Path→2D drilling
+  <br />
   b. Under “2D Layers” menu, hide (eye with red cross through) all but file with holes to drill 
+  <br />
   c. End Depth: 1.7mm
+  <br />
   d. Add tool: 8mm Corn
+  <br />
   e. Calculate
 9. Outside cut:
+<br />
   a. 2D Path→2D Contour
+  <br />
   b. Under “2D Layers” menu, hide (eye with red cross through) all but file with outside cut (Resistance1-Edge_Cuts.gbr)
+  <br />
   c. End Depth: 1.7mm
+  <br />
   d. Strategy: Outside
+  <br />
   e. Tabs: Custom
+  <br />
     i. Tab Shape: Triangle
+    <br />
     ii. Select “Add”
+    <br />
     iii. Click 3 places on outer edge (spaced fairly evenly apart)
+  <br />
   f. Add tool: 8mm Corn
+  <br />
   g. Calculate
 10. Path→Export→Export OR if you want to edit file on milling machine’s computer, File→Save As, save file in downloads with .mkc format (file-type)
 11. Upload file to your folder in Fab google drive
