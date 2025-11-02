@@ -74,80 +74,46 @@ Once this was done, I plugged it in and check to see if it would work
 4. Download files from Fab drive: (blue folder named Dubick)
   - a. Resistance1-F_Cu.gbr
   - b. Resistance1-PTH.drl
-
-  c. Resistance1-Edge_Cuts.gbr
+  - c. Resistance1-Edge_Cuts.gbr
 5. Import each of these files in MakeraCAM:
-  a. File→Import PCB→Downloads→Resistance1-Edge_Cuts.gbr→Open
-  <br />
-  b. File→Import PCB→Downloads→Resistance1-PTH.drl→Open
-  <br />
-  c. File→Import PCB→Downloads→Resistance1-F_Cu.gbr→Open
+  - a. File→Import PCB→Downloads→Resistance1-Edge_Cuts.gbr→Open
+  - b. File→Import PCB→Downloads→Resistance1-PTH.drl→Open
+  - c. File→Import PCB→Downloads→Resistance1-F_Cu.gbr→Open
 6. Anchor lower left corner:
-  <br />
-  a. Select whole design (highlight over everything)
-  <br />
-  b. Click “m” key
-  <br />
-  c. Select lower left corner in “Anchor” diagram at the top of new pop up (in top right corner of screen)
-  <br />
-  d. Under “Location” in pop up, set X to 6 and Y to 6 (offsets design from very edge of material)
-  <br />
-  e. Design should have moved to align with axes given
+  - a. Select whole design (highlight over everything)
+  - b. Click “m” key
+  - c. Select lower left corner in “Anchor” diagram at the top of new pop up (in top right corner of screen)
+  - d. Under “Location” in pop up, set X to 6 and Y to 6 (offsets design from very edge of material)
+  - e. Design should have moved to align with axes given
 7. Path:
-<br />
-  a. Under “2D Layers” menu, hide (eye with red cross through):
-  <br />
-    i. Resistance1-F_Cu.gbr_pad
-    <br />
-    ii. Resistance1-PTH.drl_0.900 mm
-    <br />
-    iii. Resistance1-PTH.drl_1.400 mm
-  <br />
-  b. Select 2D Path (in tool bar)→2D Pocket
-  <br />
-  c. Select whole (visible) design
-  <br />
-  d. Set “End Depth” to .05mm
-  <br />
-  e. Add tool x2
-  <br />
-    i. 8mm Corn
-    <br />
-    ii. .2mm*30Engraving(Metal)
-  <br />
-  f. Calculate
+  - a. Under “2D Layers” menu, hide (eye with red cross through):
+    - i. Resistance1-F_Cu.gbr_pad
+    - ii. Resistance1-PTH.drl_0.900 mm
+    - iii. Resistance1-PTH.drl_1.400 mm
+  - b. Select 2D Path (in tool bar)→2D Pocket
+  - c. Select whole (visible) design
+  - d. Set “End Depth” to .05mm
+  - e. Add tool x2
+    - i. 8mm Corn
+    - ii. .2mm*30Engraving(Metal)
+  - f. Calculate
 8. Drilling holes:
-<br />
-  a. 2D Path→2D drilling
-  <br />
-  b. Under “2D Layers” menu, hide (eye with red cross through) all but file with holes to drill 
-  <br />
-  c. End Depth: 1.7mm
-  <br />
-  d. Add tool: 8mm Corn
-  <br />
-  e. Calculate
+  - a. 2D Path→2D drilling
+  - b. Under “2D Layers” menu, hide (eye with red cross through) all but file with holes to drill 
+  - c. End Depth: 1.7mm
+  - d. Add tool: 8mm Corn
+  - e. Calculate
 9. Outside cut:
-<br />
-  a. 2D Path→2D Contour
-  <br />
-  b. Under “2D Layers” menu, hide (eye with red cross through) all but file with outside cut (Resistance1-Edge_Cuts.gbr)
-  <br />
-  c. End Depth: 1.7mm
-  <br />
-  d. Strategy: Outside
-  <br />
-  e. Tabs: Custom
-  <br />
+  - a. 2D Path→2D Contour
+  - b. Under “2D Layers” menu, hide (eye with red cross through) all but file with outside cut (Resistance1-Edge_Cuts.gbr)
+  - c. End Depth: 1.7mm
+  - d. Strategy: Outside
+  - e. Tabs: Custom
     i. Tab Shape: Triangle
-    <br />
     ii. Select “Add”
-    <br />
     iii. Click 3 places on outer edge (spaced fairly evenly apart)
-  <br />
-  f. Add tool: 8mm Corn
-  <br />
-  g. Calculate
+  - f. Add tool: 8mm Corn
+  - g. Calculate
 10. Path→Export→Export OR if you want to edit file on milling machine’s computer, File→Save As, save file in downloads with .mkc format (file-type)
 11. Upload file to your folder in Fab google drive
 
@@ -158,21 +124,21 @@ I didn't have much problems while creating my PCB design. Once I got used to cre
 ### CNC: Workflow
 
 1. Installing material:
-  a. Slightly loosen (not remove) all bolts in machine bed except the 3 that are fully within the metal jig/holder (use screwdriver on right side of machine)
-  b. If copper board already on bed with design milled into bottom left corner, remove and reorient if possible or else replace
-  c. Orient PCB board on CNC machine so that your design will fit in bottom left corner (as it was displayed on Makera CAM)
-  d. Adjust rectangular metal holders near middle of bed (keep bolts where they are, slide and rotate rectangular piece) to be able to slide material under loosened bolts, and then do so
-  e. Move/rotate both rectangular metal back so that short end of rectangle with slot aligns with material (holding it down)
-  f. Screw all loosened bolts down fairly tightly (securing material, not overly tight)
+  - a. Slightly loosen (not remove) all bolts in machine bed except the 3 that are fully within the metal jig/holder (use screwdriver on right side of machine)
+  - b. If copper board already on bed with design milled into bottom left corner, remove and reorient if possible or else replace
+  - c. Orient PCB board on CNC machine so that your design will fit in bottom left corner (as it was displayed on Makera CAM)
+  - d. Adjust rectangular metal holders near middle of bed (keep bolts where they are, slide and rotate rectangular piece) to be able to slide material under loosened bolts, and then do so
+  - e. Move/rotate both rectangular metal back so that short end of rectangle with slot aligns with material (holding it down)
+  - f. Screw all loosened bolts down fairly tightly (securing material, not overly tight)
 2. Running file:
-  a. Download gcode.nc file from Fab google drive
-  b. Open Cavera Controller
-  c. Open file (top left corner) → Upload File → (should be in Downloads) select your gcode file (yourfilename.nc) → “Upload & Select” 
-  d. Idle (top left) → COM Port ___ (some number)
-  e. Additional settings (top right dropdown) → Display Manual Controls → Home
-  f. Tool status → ensure Voltage>3.6V
-  g. Second most right option on bottom bar → select (check) auto vacuum + select (check) auto-levelling; select Run
-  h. Machine should touch down at 25 points on material and then file should run (whole design should be automatically milled)
+  - a. Download gcode.nc file from Fab google drive
+  - b. Open Cavera Controller
+  - c. Open file (top left corner) → Upload File → (should be in Downloads) select your gcode file (yourfilename.nc) → “Upload & Select” 
+  - d. Idle (top left) → COM Port ___ (some number)
+  - e. Additional settings (top right dropdown) → Display Manual Controls → Home
+  - f. Tool status → ensure Voltage>3.6V
+  - g. Second most right option on bottom bar → select (check) auto vacuum + select (check) auto-levelling; select Run
+  - h. Machine should touch down at 25 points on material and then file should run (whole design should be automatically milled)
 
 ### Final Product and Conclusions
 
