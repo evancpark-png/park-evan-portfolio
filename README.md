@@ -68,11 +68,8 @@ Once this was done, I plugged it in and check to see if it would work
 1. Open new 3D project
 2. Set material to PCB: Edit→Material→PCB
 3. Set dimensions
-
     - a. X = 127mm
-  <br />
     - b. Y  = 101mm
-  <br />
     - c. Z = 1.7mm
 4. Download files from Fab drive: (blue folder named Dubick)
   a. Resistance1-F_Cu.gbr
