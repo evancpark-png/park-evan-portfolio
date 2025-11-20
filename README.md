@@ -85,6 +85,11 @@ Once this was done, I plugged it in and check to see if it would work
   - c. Select lower left corner in “Anchor” diagram at the top of new pop up (in top right corner of screen)
   - d. Under “Location” in pop up, set X to 6 and Y to 6 (offsets design from very edge of material)
   - e. Design should have moved to align with axes given
+
+Once your file looks like this you're ready to move on.
+
+![](/images/pcb_beginnings/pcb_beginnings-w1.png)
+
 7. Path:
   - a. Under “2D Layers” menu, hide (eye with red cross through):
     - i. Resistance1-F_Cu.gbr_pad
@@ -114,6 +119,11 @@ Once this was done, I plugged it in and check to see if it would work
     iii. Click 3 places on outer edge (spaced fairly evenly apart)
   - f. Add tool: 8mm Corn
   - g. Calculate
+
+Your file should look like this
+
+![](/images/pcb_beginnings/pcb_beginnings-w2.png)
+
 10. Path→Export→Export OR if you want to edit file on milling machine’s computer, File→Save As, save file in downloads with .mkc format (file-type)
 11. Upload file to your folder in Fab google drive
 
@@ -144,4 +154,10 @@ I didn't have much problems while creating my PCB design. Once I got used to cre
 
 Using the new machine was a small learning curve (once again getting used to new software when your used to another one can be tricky at first), but once I got the hang of it I believe I can operate it safely and efficently. Interestingly, instead of milling out just the outside of the traces, the software we used mills the entire copper plate except for the traces. This makes it take a good amount of time, but problems like this can be fixed with having a bigger bit. Also, having only the traces present makes it harder to create bridges with soldering.
 
+I'm very interested in this machine because there are many other materials that I can cut using this. I was thinking that I could potentially use this machine to cut out aluminum in order to create better crank shafts in my personal project. Utilizing aluminum can help the deformation issues that I was encountering in the project.
+
+I'm also very excited to try and design my own pcb boards. Being able to have the machine run itself is great seeing that I would have to watch the milling machine almost every time before. 
+
 ![](/images/pcb_beginnings/finished_pcb.jpg)
+
+You can download my files for making this PCB [here](/assets/EP-pcb_beginnings.zip)
