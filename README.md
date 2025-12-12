@@ -161,3 +161,17 @@ I'm also very excited to try and design my own pcb boards. Being able to have th
 ![](/images/pcb_beginnings/finished_pcb.jpg)
 
 You can download my files for making this PCB [here](/assets/EP-pcb_beginnings.zip)
+
+## Topography Map
+
+We were tasked of making a topography map by cncing wood of a mountain of our choice. First, we visited [Terrain2STL](https://jthatch.com/Terrain2STL/) which would create an .stl of a specified part of the earth that we wanted so we can utilize it in order to create a .cnc file in Aspire to cut on the Cavera. I decieded to choose a part of the Andes mountains in Peru. I edited to settings to increase the Vertical Scaling.
+
+![](/images/topography_map/ep_terrain2stl.png)
+
+Then I took this file into Aspire then followed a given workflow to turn the file into a .cnc file that I could use to mill
+
+<iframe src="https://drive.google.com/file/d/1A2KOTGyH5LuEHXZDqpiYKwSuG7LrYfh6/preview" width="640" height="480"></iframe>
+
+I had little problems going through this guide.
+
+Once my file was ready, I went to the Cavera CNC machine and locked my wood in place. 
