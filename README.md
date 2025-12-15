@@ -168,10 +168,22 @@ We were tasked of making a topography map by cncing wood of a mountain of our ch
 
 ![](/images/topography_map/ep_terrain2stl.png)
 
-Then I took this file into Aspire then followed a given workflow to turn the file into a .cnc file that I could use to mill
+Then I took this file into Aspire then followed a given workflow to turn the file into a .cnc file that I could use to mill. We made roughing pass with a larger bit to remove as much material as possible quickly and then a finishing pass with a ball-point, smalelr bit to get the details of the mountain. 
 
 <iframe src="https://drive.google.com/file/d/1A2KOTGyH5LuEHXZDqpiYKwSuG7LrYfh6/preview" width="640" height="480"></iframe>
 
-I had little problems going through this guide.
+I had little problems going through this guide and creating my file.
 
-Once my file was ready, I went to the Cavera CNC machine and locked my wood in place. 
+![2D View](/images/topography_map/ep-aspire_2dview.png)
+
+![3D View](/images/topography_map/ep-aspire_3dview.png)
+
+Once I exported the drill files, I went to the Cavera CNC machine and locked my wood in place in the corner of the machine, making sure it was flush to the edge. 
+
+![]() PHOTO OF LOCKED WOOD IN CAVERA
+
+Then I Uploaded and Selected my file then homed the machine. I then repositioned the cut to make sure to cut from the corner where my wood was positioned. When I sent the file I made sure that the laser which outlines the cut stayed inside the wood block. Then I sent the file and let it cut.
+
+Here is my finsihed topography map
+
+![]() FINSIHED TOPOGRAPHY MAP
