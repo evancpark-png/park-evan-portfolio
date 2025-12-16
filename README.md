@@ -180,10 +180,19 @@ I had little problems going through this guide and creating my file.
 
 Once I exported the drill files, I went to the Cavera CNC machine and locked my wood in place in the corner of the machine, making sure it was flush to the edge. 
 
-![]() PHOTO OF LOCKED WOOD IN CAVERA
 
-Then I Uploaded and Selected my file then homed the machine. I then repositioned the cut to make sure to cut from the corner where my wood was positioned. When I sent the file I made sure that the laser which outlines the cut stayed inside the wood block. Then I sent the file and let it cut.
+Then I Uploaded and Selected my file then homed the machine. 
+
+![](/images/topography_map/SS-fileupload.png)
+
+I then repositioned the cut to make sure to cut from the corner where my wood was positioned and turned on auto-leveling.
+
+![](/images/topography_map/Auto_level.png)
+
+![](/images/topography_map/ss-gcodeview.png)
+
+When I sent the file I made sure that the laser which outlines the cut stayed inside the wood block. Then I sent the file and let it cut.
 
 Here is my finsihed topography map
 
-![]() FINSIHED TOPOGRAPHY MAP
+![](/images/topography_map/ep-finished_topography.jpg)
