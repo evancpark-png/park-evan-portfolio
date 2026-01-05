@@ -197,6 +197,10 @@ Here is my finsihed topography map
 
 ![](/images/topography_map/ep-finished_topography.jpg)
 
+### Summary
+
+By working on this project, I learned how to use the Cavera machines in order to machine wood and use Aspire to cut out a 3D model using roughing and finishing passes. I also learned how to make 3D topographic maps online. If I were to do this again I would use nicer wood and also mess around with the topographic map settings more to get a more dramatic look.
+
 ### Download
 
-You can downlaod my aspire and cnc files [here](/assets/EvanPark_MountainRange_Andes.zip)
+You can downlaod my aspire, stl,  and cnc files [here](/assets/EvanPark_MountainRange_Andes.zip)
